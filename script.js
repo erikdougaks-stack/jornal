@@ -292,29 +292,30 @@ const news = {
     category: "POLÍTICA",
 
     title:
-      "Deputados discutem proposta durante sessão e vídeo da discussão viraliza nas redes",
+      "Dois candidatos apresentam propostas voltadas à juventude durante campanha",
 
     text: `
       <p>
-        Um vídeo registrado durante uma sessão legislativa
-        começou a circular nas redes sociais após uma discussão
-        entre dois parlamentares.
+        Dois candidatos que participam de uma campanha eleitoral
+        apresentaram propostas voltadas principalmente para a
+        juventude, educação e participação dos estudantes.
       </p>
 
       <p>
-        No vídeo, os dois deputados apresentam posições
-        diferentes sobre uma proposta que estava sendo discutida.
+        Os materiais de divulgação destacam temas como respeito,
+        compromisso, trabalho e mudanças na comunidade.
       </p>
 
       <p>
-        Durante a conversa, um dos parlamentares faz uma
-        declaração considerada provocativa pelo colega,
-        que responde imediatamente.
+        Os candidatos também passaram a divulgar números de votação
+        e mensagens de campanha nas redes sociais e em materiais
+        distribuídos durante o período eleitoral.
       </p>
 
       <p>
-        O trecho termina poucos segundos depois e passa a ser
-        compartilhado por diferentes perfis nas redes sociais.
+        A campanha chamou a atenção dos estudantes pela forma como
+        os candidatos utilizaram diferentes estratégias de
+        comunicação para apresentar suas propostas.
       </p>
     `,
 
@@ -322,7 +323,7 @@ const news = {
       "Conteúdo produzido para o projeto",
 
     reveal:
-      "Os dois políticos apresentados no vídeo são personagens fictícios interpretados por estudantes. A discussão, a sessão e a declaração foram criadas exclusivamente para esta atividade educacional."
+      "Os candidatos apresentados nesta matéria são personagens fictícios interpretados por estudantes. A campanha, as propostas e os materiais de divulgação foram criados exclusivamente para esta atividade educacional."
 
   }
 
