@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Diário Nacional</title>
+
+  <meta
+    name="description"
+    content="Diário Nacional — informação, análise e jornalismo."
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+
+<header class="site-header">
+
+  <div class="topbar">
+
+    <div class="container header-content">
+
+      <div class="brand">
+
+        <span class="brand-main">
+          DIÁRIO
+        </span>
+
+        <span class="brand-sub">
+          NACIONAL
+        </span>
+
+      </div>
+
+
+      <div class="header-info">
+
+        <span>
+          Domingo, 6 de setembro de 2026
+        </span>
+
+        <span>
+          08:36
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <nav class="navigation">
+
+    <div class="container nav-content">
+
+      <a href="#">
+        Início
+      </a>
+
+      <a href="#">
+        Brasil
+      </a>
+
+      <a href="#">
+        Mundo
+      </a>
+
+      <a href="#">
+        Política
+      </a>
+
+      <a href="#">
+        Economia
+      </a>
+
+      <a href="#">
+        Tecnologia
+      </a>
+
+      <a href="#">
+        Educação
+      </a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+
+
+<main class="container">
+
+
+  <div class="breaking">
+
+    <span>
+      ÚLTIMAS NOTÍCIAS
+    </span>
+
+    <p>
+      Novas informações são atualizadas ao longo do dia
+    </p>
+
+  </div>
+
+
+
+  <!-- NOTÍCIA PRINCIPAL -->
+
+  <section class="lead">
+
+
+    <article class="main-news">
+
+
+      <div class="news-image">
+
+        <img
+          src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Artificial-Intelligence.jpg"
+          alt="Imagem ilustrativa relacionada à inteligência artificial"
+        >
+
+        <span class="image-label">
+          IMAGEM ILUSTRATIVA
+        </span>
+
+      </div>
+
+
+      <div class="main-content">
+
+        <span class="category">
+          TECNOLOGIA
+        </span>
+
+
+        <h1>
+          Empresa brasileira começa a testar sistema de inteligência artificial para reduzir tempo de atendimento em aeroportos
+        </h1>
+
+
+        <p>
+          Ferramenta experimental passa por testes em operações de atendimento e deve ser avaliada antes de uma possível expansão.
+        </p>
+
+
+        <small>
+          Há 18 minutos
+        </small>
+
+
+        <button onclick="openNews(4)">
+          Leia a matéria
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- LATERAL -->
+
+    <aside class="side-news">
+
+
+      <article>
+
+        <div class="small-image">
+
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Davies_Coop_-_factory_worker_using_equipment(GN15054).jpg"
+            alt="Trabalhador utilizando equipamentos em uma fábrica"
+          >
+
+        </div>
+
+
+        <span class="category">
+          ECONOMIA
+        </span>
+
+
+        <h2>
+          Brasil abre 58,5 mil vagas com carteira assinada em julho
+        </h2>
+
+
+        <small>
+          Há 42 minutos
+        </small>
+
+
+        <button onclick="openNews(1)">
+          Leia a matéria
+        </button>
+
+      </article>
+
+
+
+      <article>
+
+        <div class="small-image">
+
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Office_interior_2022_queue.jpg"
+            alt="Ambiente interno de atendimento"
+          >
+
+        </div>
+
+
+        <span class="category">
+          BRASIL
+        </span>
+
+
+        <h2>
+          Município inicia projeto-piloto para reduzir filas em unidades de atendimento público
+        </h2>
+
+
+        <small>
+          Há 1 hora
+        </small>
+
+
+        <button onclick="openNews(5)">
+          Leia a matéria
+        </button>
+
+      </article>
+
+    </aside>
+
+  </section>
+
+
+
+  <!-- MAIS NOTÍCIAS -->
+
+  <div class="section-title">
+
+    <h2>
+      Mais notícias
+    </h2>
+
+    <span></span>
+
+  </div>
+
+
+
+  <section class="news-grid">
+
+
+    <!-- NOTÍCIA 2 -->
+
+    <article class="news-card">
+
+      <div class="card-image">
+
+        <img
+          src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Passenger_aircraft_at_Rio_de_Janeiro_airport,_Brazil.jpg"
+          alt="Aeronave em aeroporto do Rio de Janeiro"
+        >
+
+      </div>
+
+
+      <div class="card-content">
+
+        <span class="category">
+          AVIAÇÃO
+        </span>
+
+
+        <h3>
+          Anac suspende quatro empresas de voos panorâmicos que operavam no Rio
+        </h3>
+
+
+        <p>
+          Fiscalização encontrou irregularidades em empresas e aeronaves utilizadas no serviço.
+        </p>
+
+
+        <small>
+          Hoje, 07:52
+        </small>
+
+
+        <button onclick="openNews(2)">
+          Leia a matéria
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- NOTÍCIA 3 -->
+
+    <article class="news-card">
+
+      <div class="card-image">
+
+        <img
+          src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Diecasters_-_male_factory_worker(GN15058).jpg"
+          alt="Trabalhador em ambiente industrial"
+        >
+
+      </div>
+
+
+      <div class="card-content">
+
+        <span class="category">
+          ECONOMIA
+        </span>
+
+
+        <h3>
+          Produção industrial brasileira volta a crescer após dois meses de queda
+        </h3>
+
+
+        <p>
+          Produção avançou 0,2% em julho, segundo dados divulgados pelo IBGE.
+        </p>
+
+
+        <small>
+          Hoje, 07:31
+        </small>
+
+
+        <button onclick="openNews(3)">
+          Leia a matéria
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- NOTÍCIA 6 -->
+
+    <article class="news-card">
+
+      <div class="card-image">
+
+        <img
+          src="https://commons.wikimedia.org/wiki/Special:Redirect/file/University_Students_in_Brazil.jpg"
+          alt="Estudantes universitários"
+        >
+
+      </div>
+
+
+      <div class="card-content">
+
+        <span class="category">
+          EDUCAÇÃO
+        </span>
+
+
+        <h3>
+          Universidade desenvolve plataforma para acompanhar abandono de cursos no primeiro ano
+        </h3>
+
+
+        <p>
+          Projeto experimental utiliza dados acadêmicos para identificar padrões de evasão.
+        </p>
+
+
+        <small>
+          Hoje, 06:58
+        </small>
+
+
+        <button onclick="openNews(6)">
+          Leia a matéria
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- NOTÍCIA ESPECIAL -->
+
+    <article class="news-card">
+
+      <div class="special-image">
+
+        <strong>
+          VÍDEO
+        </strong>
+
+        <span>
+          CONTEÚDO DO PROJETO
+        </span>
+
+      </div>
+
+
+      <div class="card-content">
+
+        <span class="category">
+          POLÍTICA
+        </span>
+
+
+        <h3>
+          Deputados discutem proposta durante sessão e vídeo da discussão viraliza nas redes
+        </h3>
+
+
+        <p>
+          Trecho de uma sessão chama atenção após troca de declarações entre dois parlamentares.
+        </p>
+
+
+        <small>
+          Hoje, 06:21
+        </small>
+
+
+        <button onclick="openNews(7)">
+          Leia a matéria
+        </button>
+
+      </div>
+
+    </article>
+
+
+  </section>
+
+</main>
+
+
+
+<footer>
+
+  <div class="container footer-content">
+
+
+    <div>
+
+      <strong>
+        DIÁRIO NACIONAL
+      </strong>
+
+      <p>
+        Informação, análise e jornalismo.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <p>
+        Sobre nós
+      </p>
+
+      <p>
+        Contato
+      </p>
+
+      <p>
+        Política de privacidade
+      </p>
+
+    </div>
+
+
+  </div>
+
+
+  <div class="copyright">
+
+    © 2026 Diário Nacional — Projeto educacional.
+
+  </div>
+
+</footer>
+
+
+
+<!-- MODAL DAS MATÉRIAS -->
+
+<div
+  id="modal"
+  class="modal"
+>
+
+  <div class="article-page">
+
+
+    <button
+      class="close"
+      onclick="closeNews()"
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+
+    <span
+      id="modalCategory"
+      class="category"
+    ></span>
+
+
+    <div class="modal-image">
+
+      <img
+        id="modalImage"
+        src=""
+        alt=""
+      >
+
+    </div>
+
+
+    <h1 id="modalTitle"></h1>
+
+
+    <div class="article-meta">
+      Publicado hoje · Atualizado recentemente
+    </div>
+
+
+    <div
+      id="modalText"
+      class="article-text"
+    ></div>
+
+
+    <div
+      id="reveal"
+      class="reveal"
+    >
+
+      <div class="reveal-line"></div>
+
+
+      <h2 id="revealTitle"></h2>
+
+
+      <p id="revealText"></p>
+
+
+      <p>
+        Esta experiência faz parte de um projeto educacional sobre
+        <strong>
+          inteligência artificial, deepfakes e desinformação.
+        </strong>
+      </p>
+
+
+      <p>
+        O objetivo é demonstrar como conteúdos verdadeiros e
+        fictícios podem apresentar aparência semelhante e como
+        a verificação das informações é importante antes do compartilhamento.
+      </p>
+
+    </div>
+
+
+    <div
+      id="timer"
+      class="timer"
+    >
+      Verificando informações...
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
