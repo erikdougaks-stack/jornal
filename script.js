@@ -16,7 +16,10 @@ const newsImages = {
     "https://commons.wikimedia.org/wiki/Special:Redirect/file/Office_interior_2022_queue.jpg",
 
   6:
-    "https://commons.wikimedia.org/wiki/Special:Redirect/file/University_Students_in_Brazil.jpg"
+    "https://commons.wikimedia.org/wiki/Special:Redirect/file/University_Students_in_Brazil.jpg",
+
+  7:
+    "cartaz-candidatos.png"
 
 };
 
